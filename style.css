@@ -1,0 +1,123 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(110deg, #fdcd3b 60%, #ffed4b 60%);
+}
+
+.body{
+    width: 400px;
+    min-width: 300px;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    margin: 100px auto;
+    padding: 10px 50px;
+    border: none;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+.body h2{
+    font-family: sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 35px;
+}
+
+.body .userInput{
+    margin: 5px 0;
+    display: flex;
+    background-color: rgb(243, 241, 241);
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+.body .userInput input{
+    background-color: transparent;
+    border: none;
+    padding-left: 5px;
+    height: 40px;
+    width: 100%;
+    font-size: 26px;
+    outline: none;
+}
+
+.body .userInput button{
+    font-weight: 800;
+    font-size: 16px;
+    border: none;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    transition: 0.1s;
+    -webkit-transition: 0.1s;
+    -moz-transition: 0.1s;
+    -ms-transition: 0.1s;
+    -o-transition: 0.1s;
+}
+
+.body .userInput button:hover{
+    cursor: pointer;
+    background-color: gray;
+}
+
+.body .lists{
+    margin-top: 20px;
+
+}
+
+.body .lists ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.body .lists li{
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.body .lists li span{
+    flex: 1;
+}
+
+.body .lists li button{
+    background-color: transparent;
+    border: none;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    outline: none;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: sans-serif;
+    transition: 0.1s;
+    -webkit-transition: 0.1s;
+    -moz-transition: 0.1s;
+    -ms-transition: 0.1s;
+    -o-transition: 0.1s;
+}
+
+.body .lists li button:hover{
+    background-color: gray;
+    cursor: pointer;
+}
+
+.done{
+    text-decoration: line-through;
+    opacity: 0.6;
+}
